@@ -1,0 +1,7 @@
+<h2>Demo conso api + connexion</h2>
+<h4 *ngIf="isConnected; else notConnected">
+  Bien le bonjour monsieur le connecté
+</h4>
+<ng-template #notConnected>
+  <h4>Tu pourrais au moins te connecter</h4>
+</ng-template>
